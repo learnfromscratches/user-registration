@@ -1,0 +1,59 @@
+.form{
+  display: flex;
+  height: 450px;
+  width: 400px;
+  background-color: #FCFBFC;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin: 20px; 
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: sticky;
+}
+.pageContent{
+  display: flex;
+  flex-direction: row;
+}
+.pageContent span{
+  display: inline-block;
+  margin: 5px;
+  width: 70px;
+  flex-direction: row;
+}
+.displaySection{
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+  justify-content:  space-evenly;
+  height: auto;
+  width: calc(100% - 440px);
+  background: none;
+}
+.singleUser{
+  width: 230px;
+  height: 230px;
+  padding: 30px;
+  margin: 10px;
+  border: none;
+  background-color: #FCFBFC;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.content{
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content button{
+  margin-top: 20px;
+}
+.home{
+  background-color: #FCFBFC; 
+  align-items: center;
+}
+.btnBox{
+  display: flex;
+  margin: 10px;
+}
